@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/uno?useSSL=false&serverTimezone=UTC
+    username: sj
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
